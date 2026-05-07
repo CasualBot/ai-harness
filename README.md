@@ -13,9 +13,21 @@ The skill asks a handful of questions (OS, where to put the vault, where you kee
 - Today's daily note as a starting point
 - Optional: on WSL, mirrors the `CLAUDE.md` pointer to your Windows-side Claude Code (`C:\Users\<you>\.claude\`). The Windows-side statusline is *not* auto-wired — you run `/statusline-setup` from Windows-native Claude Code yourself when ready.
 
+## Prerequisites
+
+- [Claude Code](https://claude.ai/code) installed and authenticated (`claude` command works in your terminal)
+- [Obsidian](https://obsidian.md) installed (the skill creates the vault folder; you open it in Obsidian afterwards)
+- Git
+
+## Quick start
+
+1. Clone this repo somewhere permanent (e.g. `~/tools/ai-harness`).
+2. Run the install commands for your platform (see below) to wire the skill into Claude Code.
+3. In any Claude Code session, type `/setup-second-brain` and answer the prompts.
+
 ## Install
 
-Pick a location to clone the repo (`<clone>` below — anywhere you like).
+Pick a location to clone the repo. Replace `<clone>` with your chosen path (e.g. `~/tools/ai-harness`).
 
 ### Unix (macOS / Linux / WSL)
 
