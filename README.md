@@ -4,6 +4,8 @@ A portable Claude Code harness. Currently ships a single skill — **`setup-seco
 
 The skill asks a handful of questions (OS, where to put the vault, where you keep your code, whether to install the statusline, etc.), then creates a folder skeleton, generic `CLAUDE.md` conventions, an `add-project-to-vault` workflow doc, statusline scripts, and a starter daily note. After it runs you have a working "second brain" you can start logging into immediately.
 
+![Statusline showing context %, cost, and token rate](public/statusline.png)
+
 ## What it creates
 
 - A vault folder (path you choose) with `00 Notes/`, `01 Projects/` (developer mode), `02 Skills/`, `03 Scripts/` skeletons
